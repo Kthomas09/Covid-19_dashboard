@@ -15,7 +15,12 @@
     <h1>Covid-19: American Health in Peril</h1>
     <br>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" style="background-color: whitesmoke;" href="index.html">Covid-19 Home</a>
+        <a class="navbar-brand" style="background-color: whitesmoke;" href="index.html">Covid-19 Home
+            <p><span id="datetime"></span></p>
+            <script>
+                var dt = new Date();
+                document.getElementById("datetime").innerHTML = dt.toLocaleString();
+            </script></a>
         <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse"
             data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -46,35 +51,62 @@
 
     <br>
 
-    <div class="hompage_content" data-group-type="SingleCard"
-        style="grid-area: 1 / 3 / auto / auto;"><a role="article"
-            class="ArticleCard_base__ymO6l ArticleCard_layout-vertical__zOrRw ArticleCard_major__4ko6T ArticleCard_contain-image__mdyzg"
-            data-tracking-id="article-card" href="/covid-19-daily-video">
-            <div class="ArticleCard_text__2_Rz4">
-                <div class="ArticleCard_text-content-wrapper__1ble9">
-                    <header>
-                        <p class="category"><a href = "https://coronavirus.jhu.edu/">Johns Hopkins Coronavirus Resource Center</a></p>
-                            <p>Taken from Data.World.com</p>
-                            <div class="ArticleCard_image__2aapG">
-                                <img src="static/images/covid-in-motion-thumb1215.jpg" alt=""
-                                    loading="lazy"></div>
-                        <h3>COVID-19 Data in Motion: Tuesday, December 15, 2020</h3>
-                    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 col md-12">
+                <div class="box">
+                    <h2>Stop The Spread</h2>
+                    <hr>
+                    <div class="thumbnail">
+                        <img class="img-thumbnail float-center" src="static/images/COVID-19-Signage-400-x-600mm.jpg"
+                            style="text-align: center;" alt="Stop the Spread">
+                    </div>
+                    <br>
+                    <p>Covid-19 has caused a great deal of pain, distress, uncertainty, and dispare across the world.
+                        Please do your
+                        part and help stop the spread by adhereing to local guidelines and regulations. Be the solution!
+                    </p>
                 </div>
             </div>
-        </a></div>
 
-    <br>
+            <!-- Right Visualization Box -->
+            <div class="col-lg-5 col-md-12">
+                <div class="box">
+                    <div class="title">
+                        <h2>About</h2>
+                    </div>
+                    <hr>
+                    <div class="row" style="padding-bottom: 30px;">
+                        <p>These dashboards are designed for everyone to understand the progression of Covid-19. With
+                            the help of Johns Hopkins Coronavirus Resource Center, and data scraped from Data.World, we
+                            will finally understand the path this disease has taken throughout the United States of
+                            America. This virus was devastating early, and as the holiday season is upon us we are
+                            seeing the same horror as at the beginning of 2020. However, because of the dedicated
+                            medical professionals, risking their health and the health of their families, we are
+                            beginning to see signs of hope. As of Dec. 14th, Pfizer has officially begun to distribute
+                            their vaccines to those fighting on the front lines. These medical professionals are also
+                            becoming more proficient in treating this virus. We have seen a steady decrease in the
+                            mortality rate for this disease, and with a vaccine sooon on the way, we can only hope that
+                            we will begin to adjust to this new normal. We will never be able to bring back our
+                            loved ones, but with their dedication, perhaps we can save many more for our future. This
+                            data project is dedicated to our front-line workers who are always there for us! We Thank
+                            You!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+        <br>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
 
 </body>
 
