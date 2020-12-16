@@ -51,5 +51,7 @@ a{
     color:gray!important
 }
 
-
+.hompage_content {
+    justify-content: center;
+}
 
