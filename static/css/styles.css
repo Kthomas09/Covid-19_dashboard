@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: maroon
+}
+
+.navbar {
+    max-height: 100px;
+}
+
+.navigation .navbar-brand {
+    color: grey;
+    margin-left: 30px;
+    padding: inherit;
+    font-weight: bold;
+    background-color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    background-color: whitesmoke;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.active, .dropdown-menu .dropdown-item:active a:hover {
+    background-color: gray!important;
+}
+
+.dropdown-item{
+    color: black!important;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+    background-color: whitesmoke!important;
+}
+
+a{
+    color:gray;
+    font-size:20px;
+}
+
+.nav-link:hover{
+    background-color:whitesmoke!important
+}
+
+.navebar-brand:hover{
+    color:gray!important
+}
+
+
+
